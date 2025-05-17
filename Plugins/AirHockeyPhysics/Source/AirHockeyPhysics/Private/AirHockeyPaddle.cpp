@@ -59,7 +59,6 @@ AAirHockeyPaddle::AAirHockeyPaddle()
 	MeshComponent->SetCollisionProfileName(MeshCollisionProfileName);
 	MeshComponent->SetNotifyRigidBodyCollision(false);
 	MeshComponent->SetGenerateOverlapEvents(false);
-
 	MeshComponent->SetupAttachment(CapsuleComponent);
 
 #if WITH_EDITORONLY_DATA
